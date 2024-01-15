@@ -1,0 +1,16 @@
+@import './main.css';
+@import './about.css';
+@import './projects.css';
+@import './contact.css';
+
+@font-face {
+  font-family: Raleway;
+  src: url('./Raleway/Raleway-VariableFont_wght.ttf');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 300px;
+  font-family: Raleway;
+}
