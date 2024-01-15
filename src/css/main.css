@@ -1,8 +1,12 @@
-
 .main {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  background-color: pink;
+}
+
+.main a {
+  color: black;
 }
 
 .navbar {
@@ -21,8 +25,8 @@
   border-left: 0;
   border-bottom: 0;
   min-height: 30px;
-  color: white;
   background-color: black;
+  color: white;
   border-right: white 2px solid;
   transition: background-color 0.25s ease-in-out;
 }
@@ -41,6 +45,14 @@
   margin-top: 40vh;
 }
 
+.name {
+  font-size: 4em;
+}
+
+.namedesc {
+  font-size: 3em;
+}
+
 .arrow-container {
   display: flex;
   text-align: center;
@@ -54,12 +66,4 @@
 .arrow {
   min-width: 30px;
   max-width: 3vw;
-}
-
-.name {
-  font-size: 4em;
-}
-
-.namedesc {
-  font-size: 3em;
 }

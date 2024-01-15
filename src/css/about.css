@@ -1,0 +1,15 @@
+#about {
+  display: grid;
+  margin: clamp(30px, 50px, 5vw);
+  height: clamp(200px, 300px, 500px);
+  grid-template-rows: 1fr 5fr;
+  gap: 20px;
+}
+
+.title {
+  font-size: 3em;
+}
+
+.description {
+  font-size: 1.5em;
+}

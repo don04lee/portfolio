@@ -10,59 +10,58 @@
 <body>
   <div class="main">
     <nav class="navbar">
-      <button class="about headerButton">About</button>
-      <button class="projects headerButton">Projects</button>
-      <button class="contact headerButton">Contact</button>
+      <a href=#about><button class="about headerButton">About</button></a>
+      <a href=#projects><button class="projects headerButton">Projects</button></a>
+      <a href=#contact><button class="contact headerButton">Contact</button></a>
     </nav>
     <div class="greeting">
-      <div class="name">Dong Woo Lee</div>
-      <div class="namedesc">Software Engineer</div>
+      <div class="name">Hi, I'm Dong Woo.</div>
+      <div class="namedesc">Nice to meet you!</div>
     </div>
+    <a href="#about">
     <div class="arrow-container">
+      <div class="scroll">Scroll Down</div>
       <svg class="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>Click to Scroll</title>
-        <path d="M7.41,14.58L12,19.17L16.59,14.58L18,16L12,22L6,16L7.41,14.58M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58M7.41,2.58L12,7.17L16.59,2.58L18,4L12,10L6,4L7.41,2.58Z" />
+        <path d="M7.41,14.58L12,19.17L16.59,14.58L18,16L12,22L6,16L7.41,14.58M7.41,8.58L12,13.17L16.59,8.58L18,10L12,
+        16L6,10L7.41,8.58M7.41,2.58L12,7.17L16.59,2.58L18,4L12,10L6,4L7.41,2.58Z" />
       </svg>
+    </a>
     </div>
   </div>
 
-  <div class="about">
-
+  <div id="about">
+    <div class="title">About</div>
     <div class="description">
-      I'm currently a student at UW-Madison
-    </div>
-
-    <div class="devicons">
-      <div class="icon">
-        <i class="devicon-html5-plain colored"></i>
-      </div>
-      <div class="icon">
-        <i class="devicon-css3-plain colored"></i>      
-      </div>
-      <div class="icon">
-        <i class="devicon-javascript-plain colored"></i>
-      </div>
-      <div class="icon">
-        <i class="devicon-typescript-plain colored"></i>
-      </div>
-      <div class="icon">
-        <i class="devicon-python-plain colored"></i>
-      </div>
-      <div class="icon">
-        <i class="devicon-java-plain colored"></i>
-      </div>          
+      Welcome to my website! I'm currently a student at UW-Madison majoring both Computer Science and Biochemistry. There's so much
+      that I want to explore with Computer Science, and the possibilities of helping the medical world with these skills entices me. 
+      As a result, I'm hoping to pursue a career that helps the intersection between healthcare and technology.
     </div>
   </div>
 
-  <div class="projects">
-    <div class="projectOne">Proj1</div>
-    <div class="projectTwo">Proj2</div>
-    <div class="projectThree">Proj3</div>
-  </div>
-
-  <div class="footer">
-    <div class="contact">
-      <input for="email">
+  <div id="projects">
+    <div class="projectOne">
+      <img src="#" class="projImg">
+      <div class="projName">Etch-A-Sketch</div>
+      <div class="projDesc"></div>
+      <button class="projGit"></button>
+      <button class="projView"></button>
+    <div class="projectTwo">
+      <img src="#" class="projImg">
+      <div class="projName">proj2</div>
+      <div class="projDesc"></div>
+      <button class="projGit"></button>
+      <button class="projView"></button>
     </div>
+    <div class="projectThree">
+      <img src="#" class="projImg">
+      <div class="projName">proj3</div>
+      <div class="projDesc"></div>
+      <button class="projGit"></button>
+      <button class="projView"></button>
+    </div>
+  </div>
+  <div id="contact">
+    <input for="email">
   </div>
 </body>
 </html>

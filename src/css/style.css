@@ -8,9 +8,17 @@
   src: url('./Raleway/Raleway-VariableFont_wght.ttf');
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
   min-height: 300px;
   font-family: Raleway;
+}
+
+a {
+  text-decoration: none;
 }
