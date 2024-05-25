@@ -6,4 +6,4 @@ This website was specifically made using only HTML, JS, and CSS. However, future
 
 Enjoy your stay!
 
-![Portfolio Image](https://github.com/don04lee/portfolio/blob/main/portfolio.png)
+![Portfolio Image](https://github.com/don04lee/portfolio/blob/main/dist/external/portfolio.png)
