@@ -21,4 +21,20 @@ body {
 
 a {
   text-decoration: none;
+  color: #DEDEDE;
+}
+
+.title {
+  font-size: 3em;
+  padding-top: 20px;
+  border-top: 3px solid #DEDEDE;
+}
+
+.descriptives {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  background: rgb(50,40,40);
+  border-top: #322828 10px solid;
+  color: #DEDEDE;
 }

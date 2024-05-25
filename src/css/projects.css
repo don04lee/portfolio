@@ -1,0 +1,53 @@
+#projects {
+  display: flex;
+  flex-direction: column;
+  margin: clamp(30px, 50px, 5vw);
+  gap: 20px;
+
+}
+
+.projType {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.projGrid {
+  display: flex;
+  border: 0.5em #DEDEDE solid;
+  border-radius: 2em;
+  min-height: max(30vh, 90vh);
+  max-width: 80vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.projName {
+  font-size: 2em;
+}
+
+.projSet {
+  margin-right: 5vw;
+  margin-left: 5vw;
+}
+
+.projDesc {
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+
+.projGit {
+  height: 4em;
+  width: 4em;
+}
+
+.projImg {
+  height: 70%;
+  max-width: 70%;
+  margin: 3vw;
+  border-radius: 2em;
+}

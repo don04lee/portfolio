@@ -2,11 +2,12 @@
   display: flex;
   flex-direction: column;
   height: 100vh;
-  background-color: pink;
+  background: rgb(50,40,40);
+  /* background: radial-gradient(circle, rgba(50,40,40,1) 0%, rgba(213,43,114,1) 25%, rgba(199,27,100,1) 50%, rgba(213,43,114,1) 75%, rgba(50,40,40,1) 100%); */
 }
 
 .main a {
-  color: black;
+  color: #DEDEDE;
 }
 
 .navbar {
@@ -25,15 +26,15 @@
   border-left: 0;
   border-bottom: 0;
   min-height: 30px;
-  background-color: black;
-  color: white;
-  border-right: white 2px solid;
+  background-color: #322828;
+  color: #DEDEDE;
+  border-right: #DEDEDE 2px solid;
   transition: background-color 0.25s ease-in-out;
 }
 
 .headerButton:hover {
-  background-color: white;
-  color: black;
+  background-color: #c71b64;
+  color: #DEDEDE;
 }
 
 .greeting {
@@ -43,6 +44,7 @@
   align-items: center;
   white-space: nowrap;
   margin-top: 40vh;
+  color: #DEDEDE;
 }
 
 .name {
@@ -66,4 +68,5 @@
 .arrow {
   min-width: 30px;
   max-width: 3vw;
+  fill: #DEDEDE;
 }

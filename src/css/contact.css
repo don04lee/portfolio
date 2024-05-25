@@ -1,0 +1,28 @@
+#contact {
+  margin: clamp(30px, 50px, 5vw);
+}
+
+#email {
+  text-align: center;
+}
+
+.methods {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.smp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.icons {
+  width: 100px;
+  fill: #DEDEDE;
+}
+
