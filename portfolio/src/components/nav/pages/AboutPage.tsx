@@ -1,10 +1,10 @@
 import { Col, Container, Row } from "react-bootstrap";
 import "../../../index.css";
 
-export default function OChemLanding(props) {
+export default function AboutPage() {
   return (
     <div className="center" style={{ textAlign: "center" }}>
-      <h1>Organic Chemistry Reaction Predictor!</h1>
+      <h1>About</h1>
       <br />
       <Container fluid={true}>
         <Row>

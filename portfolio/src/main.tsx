@@ -1,5 +1,6 @@
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import Router from "./components/nav/Router";
+import "bootstrap/dist/css/bootstrap.min.css";
+import PortfolioRouter from "./components/nav/PortfolioRouter";
 
-createRoot(document.getElementById("root")!).render(<Router />);
+createRoot(document.getElementById("root")!).render(<PortfolioRouter />);
