@@ -7,9 +7,9 @@ export default function Portfolio() {
   return (
     <div>
       <PortfolioNavbar />
-      <div style={{ margin: "0.5rem" }}>
-        <Outlet />
-      </div>
+      {/* <div style={{ margin: "0.5rem" }}> */}
+      <Outlet />
+      {/* </div> */}
     </div>
   );
 }

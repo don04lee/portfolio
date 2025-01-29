@@ -13,7 +13,7 @@ export default function PortfolioRouter() {
           <Route index element={<AboutPage />}></Route>
           <Route path="courses" element={<CoursePage />}></Route>
           <Route path="projects" element={<ProjectPage />}></Route>
-          <Route path="experience" element={<ExperiencePage />}></Route>
+          {/* <Route path="experience" element={<ExperiencePage />}></Route> */}
         </Route>
       </Routes>
     </BrowserRouter>

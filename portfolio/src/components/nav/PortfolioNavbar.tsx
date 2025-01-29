@@ -11,6 +11,7 @@ export default function PortfolioNavbar() {
       collapseOnSelect
     >
       <Container>
+        <Navbar.Brand>Dong Woo Lee</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" className="me-auto">
           <Nav>
@@ -23,9 +24,9 @@ export default function PortfolioNavbar() {
             <Nav.Link as={Link} to="/projects">
               Projects
             </Nav.Link>
-            <Nav.Link as={Link} to="/experience">
+            {/* <Nav.Link as={Link} to="/experience">
               Experience
-            </Nav.Link>
+            </Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
       </Container>
