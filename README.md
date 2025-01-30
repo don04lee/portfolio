@@ -9,4 +9,4 @@ Updates that will be coming:
   <li>Course Guide</li>
 </ul>
 
-![Portfolio Website Image](https://github.com/don04lee/portfolio-react/tree/main/portfolio/public/website.png)
+![Portfolio Website Image](https://raw.githubusercontent.com/don04lee/portfolio-react/main/portfolio/public/website.png)
