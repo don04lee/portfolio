@@ -1,4 +1,5 @@
 import { Col, Container, Row, Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "../../../index.css";
 
 export default function AboutPage() {
@@ -78,9 +79,11 @@ export default function AboutPage() {
                 Laboratory for Optical and Computational Instrumentation (LOCI)
               </a>
               , where I focus on visualizing collagen fibers using 3D Fast
-              Discrete Curvelet Transform (FDCT3D).
+              Discrete Curvelet Transform (FDCT3D). I am also the Finance Chair
+              for the Korean-American Student Association at University of
+              Wisconsin-Madison.
             </p>
-            <h2>Experience</h2>
+            <h2 style={{ marginTop: "2rem" }}>Experience</h2>
 
             <div style={{ display: "flex", alignItems: "center" }}>
               <a
@@ -91,16 +94,83 @@ export default function AboutPage() {
               >
                 <img
                   src="./locilogobig.png"
-                  style={{ width: "10rem", marginRight: "1rem" }}
+                  style={{ width: "8rem", marginRight: "1rem" }}
                 ></img>
               </a>
               <h5>
                 Research Assistant at Laboratory for Optical and Computational
-                Instrumentation (Jan. 2023 - Current)
+                Instrumentation [Jan. 2023 - Current]
+              </h5>
+            </div>
+            <div style={{ display: "flex", alignItems: "center" }}>
+              <a
+                href="https://www.whatcoffee.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ textDecoration: "none", color: "blue" }}
+              >
+                <img
+                  src="./ACMlogo.png"
+                  style={{ width: "8rem", marginRight: "1rem" }}
+                ></img>
+              </a>
+              <h5>
+                Lead Software Engineer (WhatCoffee) [May 2024 - Sept. 2024]
               </h5>
             </div>
 
-            <h2>Interests</h2>
+            <div style={{ marginBottom: "5rem", marginTop: "2rem" }}>
+              <h2>Interests</h2>
+              <div>
+                <ul>
+                  <li>
+                    I love organic chemistry, especially how it feels like a
+                    puzzle with how different molecules interact
+                    <ul>
+                      <li>
+                        This inspired me to make the{" "}
+                        <a
+                          href="https://github.com/don04lee/ochem-rxn"
+                          style={{ textDecoration: "none" }}
+                        >
+                          {" "}
+                          Organic Chemistry Reaction Predictor
+                        </a>
+                      </li>
+                      <li>
+                        Also made me major Biology at University of
+                        Wisconsin-Madison on the side
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    Music; I'm getting into back into Korean music right now,
+                    but I also enjoy practicing the guitar
+                  </li>
+                  <li>
+                    Pokemon, where I started playing during Generation 4, and
+                    now I indulge in{" "}
+                    <a
+                      href="https://pokemonshowdown.com/"
+                      style={{ textDecoration: "none" }}
+                    >
+                      Pokemon Showdown
+                    </a>{" "}
+                    every now and then
+                  </li>
+                  <li>
+                    Helping others when deciding their course schedule; I plan
+                    on using my{" "}
+                    <Link to="/courses" style={{ textDecoration: "none" }}>
+                      Courses
+                    </Link>{" "}
+                    tab to help both those that are majoring in Computer Science
+                    or doing pre-med at University of Wisconsin-Madison with
+                    their course selection{" "}
+                  </li>
+                </ul>
+              </div>
+            </div>
           </Col>
         </Row>
       </Container>

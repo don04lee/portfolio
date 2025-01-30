@@ -3,7 +3,7 @@ import Portfolio from "../Portfolio";
 import AboutPage from "./pages/AboutPage";
 import CoursePage from "./pages/CourseGuidePage";
 import ProjectPage from "./pages/ProjectPage";
-import ExperiencePage from "./pages/ExperiencePage";
+// import ExperiencePage from "./pages/ExperiencePage";/
 
 export default function PortfolioRouter() {
   return (

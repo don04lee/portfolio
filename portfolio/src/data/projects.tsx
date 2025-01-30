@@ -45,7 +45,7 @@ export const WhatCoffee: Project = {
   projectDesc:
     "Work under the Association for Computing Machinery (ACM) for a local bakery named Whatcoffee, using mainly React.js to create a website for Whatcoffee before their initial launch at Santa Clara University. ",
   websiteLink: "https://www.whatcoffee.com/",
-  tools: "Figma, React, Typescript",
+  tools: "Figma, React, Typescript, Next.js",
 };
 
 export const Projects: Project[] = [
